@@ -5,7 +5,7 @@ self.addEventListener('install', (e) => {
       './profile.png',
       './favicon.ico',
       './favicon.svg',
-      './logo_preview_.png,
+      './logo_preview_.png',
       './Nicholas Stevens - Technical Support Engineer.pdf',
       './Nicholas Stevens - Technical Support Engineer.docx'
     ])),
