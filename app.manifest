@@ -6,7 +6,7 @@
   "description": "A+ certified technical support engineer with seven years of experience delivering knowledgeable, detailed, and expeditious best practice technical support to staff at every level of seniority.",
   "icons": [{
     "src": "https://raw.githubusercontent.com/nstevens1040/resume/master/favicon.ico",
-    "sizes": "256x256",
+    "sizes": "255x255",
     "type": "image/x-icon"
   }],
   "categories": ["technical","support","engineer","systems","administrator"],
