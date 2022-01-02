@@ -7,7 +7,13 @@
   "icons": [{
     "src": "https://raw.githubusercontent.com/nstevens1040/resume/master/favicon.ico",
     "sizes": "255x255",
-    "type": "image/x-icon"
+    "type": "image/x-icon",
+    "purpose": "any"
+  },{
+    "src": "./favicon.svg",
+    "sizes": "255x255",
+    "type": "image/svg+xml,
+    "purpose": "any"
   }],
   "categories": ["technical","support","engineer","systems","administrator"],
   "display": "minimal-ui" 
