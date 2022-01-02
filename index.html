@@ -84,6 +84,7 @@
         <meta name='revisit-after' content='1 days'>
         <meta name='target' content='all'>
         <script type="application/javascript">
+        document.addEventListener("DOMContentLoaded",()=>{
             if ('serviceWorker' in navigator) {
               navigator.serviceWorker
                 .register('./sw.js')
@@ -108,7 +109,8 @@
                   deferredPrompt = null;
                 });
               });
-            });            
+            });
+        });
         </script>
         <style>
             body {
