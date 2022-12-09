@@ -158,21 +158,21 @@
             h1 {
                 font-family: "Chakra Petch";
                 font-weight: 700;
-                font-size: 36px;
+                font-size: 40px;
                 letter-spacing: 1px;
             }
 
             h2 {
                 font-family: "Chakra Petch";
                 font-weight: 400;
-                font-size: 14.4px;
+                font-size: 16px;
                 letter-spacing: .5px;
             }
 
             h3 {
                 font-family: "Chakra Petch";
                 font-weight: 400;
-                font-size: 12.6px;
+                font-size: 14px;
                 letter-spacing: .4px;
                 padding-top: 4px;
                 padding-left: 2px;
@@ -186,7 +186,7 @@
             h4 {
                 font-family: "Chakra Petch";
                 font-weight: 400;
-                font-size: 10.8px;
+                font-size: 12px;
             }
 
             h4.bold {
@@ -196,7 +196,7 @@
             h5 {
                 font-family: "Chakra Petch";
                 font-weight: 400;
-                font-size: 9.9px;
+                font-size: 11px;
             }
 
             h5.italic {
@@ -206,7 +206,7 @@
             h6 {
                 font-family: "Chakra Petch";
                 font-weight: 400;
-                font-size: 9.9px;
+                font-size: 11px;
             }
 
             a {
@@ -219,7 +219,7 @@
             }
 
             a .fa-external-link {
-                font-size: 7.2px;
+                font-size: 8px;
                 margin-left: 2px;
                 vertical-align: text-top;
                 color: #999;
@@ -227,14 +227,14 @@
 
             p, li {
                 font-weight: 400;
-                font-size: 12.6px;
-                /* font-size: 11.7px;
+                font-size: 14px;
+                /* font-size: 13px;
                 font-weight: 200; */
                 letter-spacing: .4px;
             }
 
             blockquote {
-                font-size: 9.9px;
+                font-size: 11px;
                 font-family: "Chakra Petch";
                 font-weight: 400;
                 font-style: italic;
@@ -368,7 +368,7 @@
 
             .summary {
                 font-weight: 400;
-                font-size: 12.6px;
+                font-size: 14px;
                 margin: 5px 0 5px;
             }
 
@@ -608,7 +608,7 @@
                 }
 
                 .info-tag-container .info-text {
-                    font-size: 11.7px !important;
+                    font-size: 13px !important;
                 }
 
                 .info-tag-container {
@@ -616,19 +616,19 @@
                 }
 
                 h3 {
-                    font-size: 14.4px !important;
+                    font-size: 16px !important;
                 }
 
                 h4 {
-                    font-size: 12.6px !important;
+                    font-size: 14px !important;
                 }
 
                 h6 {
-                    font-size: 10.8px !important;
+                    font-size: 12px !important;
                 }
 
                 p, li {
-                    font-size: 12.6px;
+                    font-size: 14px;
                 }
 
                 .item {
@@ -669,6 +669,21 @@
             }
 
             @media print {
+                #contact-list-alt {
+                    padding-inline-start: 0px;
+                    -webkit-column-count: 3;
+                    -moz-column-count: 3;
+                    column-count: 3;
+                    column-gap: 15px;
+                    -moz-column-gap: 15px;
+                    column-width: 180px;
+                    -moz-column-width: 180px;
+                }
+                #contact-list-alt li {
+                    display: inline-block;
+                    padding-left: 0px;
+                    height: 18.91px;
+                }
                 .item > ul > li {
                     padding: 0px 0px 8px 10px;
                 }
@@ -793,23 +808,23 @@
                 }
 
                 .info-tag-container .info-text {
-                    font-size: 11.7px !important;
+                    font-size: 10.8333333333333px !important;
                 }
 
                 h3 {
-                    font-size: 14.4px !important;
+                    font-size: 13.3333333333333px !important;
                 }
 
                 h4 {
-                    font-size: 12.6px !important;
+                    font-size: 11.6666666666667px !important;
                 }
 
                 h6 {
-                    font-size: 10.8px !important;
+                    font-size: 10px !important;
                 }
 
                 p, li {
-                    font-size: 11.7px;
+                    font-size: 10.8333333333333px;
                 }
 
                 .item {
@@ -844,6 +859,46 @@
                     display: inline-block;
                     padding-left: 0px;
                 }
+                h1 {
+                font-size: 33.3333333333333px;
+            }
+            h2 {
+                font-size: 13.3333333333333px;
+            }
+            h5 {
+                font-size: 9.16666666666666px;
+            }
+            a .fa-external-link {
+                font-size: 6.66666666666666px;
+            }
+            blockquote {
+                font-size: 9.16666666666666px;
+            }
+            .summary {
+                font-size: 11.6666666666667px;
+            }
+            .info-tag-container .fa {
+                font-size: 11.6666666666667px;
+            }
+            .info-tag-container .fa.fa-map-marker {
+                font-size: 13.3333333333333px;
+            }
+            .info-tag-container .fa.fa-mobile {
+                font-size: 15px;
+            }
+            .info-tag-container .fa.fa-envelope-o {
+                font-size: 10px;
+            }
+            .info-tag-container .fa.fa-desktop {
+                font-size: 9.16666666666666px;
+            }
+            .info-tag-container .fa.fa-external-link {
+                font-size: 6.66666666666666px;
+            }
+            .references-container .fa {
+                font-size: 11.6666666666667px;
+            }
+
             }
 
             /* Components */
@@ -853,7 +908,7 @@
             }
 
             .info-tag-container .fa {
-                font-size: 12.6px;
+                font-size: 14px;
                 width: 12px;
                 margin-right: 5px;
                 text-align: center;
@@ -861,31 +916,31 @@
             }
 
             .info-tag-container .fa.fa-map-marker {
-                font-size: 14.4px;
+                font-size: 16px;
             }
 
             .info-tag-container .fa.fa-mobile {
-                font-size: 16.2px;
+                font-size: 18px;
             }
 
             .info-tag-container .fa.fa-envelope-o {
-                font-size: 10.8px;
+                font-size: 12px;
             }
 
             .info-tag-container .fa.fa-desktop {
-                font-size: 9.9px;
+                font-size: 11px;
             }
 
             .info-tag-container .fa.fa-external-link {
                 width: auto;
-                font-size: 7.2px;
+                font-size: 8px;
                 margin-left: 2px;
                 vertical-align: text-top;
                 color: #999;
             }
 
             .info-tag-container .info-text {
-                font-size: 9.9px;
+                font-size: 11px;
                 display: inline-block;
                 vertical-align: middle;
                 /* text-transform: uppercase; */
@@ -893,7 +948,7 @@
             }
 
             .references-container .fa {
-                font-size: 12.6px;
+                font-size: 14px;
             }
 
             .inline-block {
