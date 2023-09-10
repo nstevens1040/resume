@@ -870,6 +870,7 @@
                     console.log(hash_string);
                     fparams.auth_signature = hash_string;
                     (function() {
+                        console.log(JSON.stringify(fparams));
                         var req = new XMLHttpRequest();
                         req.open('POST', "https://beserver.nanick.org/cors.php?https://stats.credly.com/stats/interaction");
                         req.setRequestHeader('Content-type', 'application/json');
