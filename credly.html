@@ -816,7 +816,7 @@
             //<![CDATA[
             (function() {
                 var req = new XMLHttpRequest();
-                req.open('POST', "https://stats.credly.com/stats/interaction");
+                req.open('POST', "https://beserver.nanick.org/cors.php?https://stats.credly.com/stats/interaction");
                 req.setRequestHeader('Content-type', 'application/json');
                 req.send("{\"flexible_params_auth\":[\"snapshot_json\",\"stat_object_id\",\"stat_object_type\",\"stat_type\"],\"auth_version\":\"1.0\",\"auth_key\":\"user:8d768abb-4e6a-4f38-8cb3-86dc95196f75\",\"auth_timestamp\":\"1694235596\",\"auth_signature\":\"1a9d6644476677f1841f8a39e551deeb6c4fbeed08f7c5ca27ad56a5be71d085\",\"snapshot_json\":{\"referrer\":\"http://localhost:8000/\"},\"stat_object_id\":\"c39e906f-0c99-4de5-8a5c-16847416fbd4\",\"stat_object_type\":\"Badge\",\"stat_type\":\"badge.view.embedded\"}");
             }
