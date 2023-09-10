@@ -848,7 +848,7 @@
                 "/stats/interaction"                
             ];
             var newlinejoin = newline.join("\n");
-            var message = newlinejoin + "\n" + ampjoin;
+            var message = escape(newlinejoin + "\n" + ampjoin);
             console.log(message);
             const key = 'user:8d768abb-4e6a-4f38-8cb3-86dc95196f75';
             const keyBytes = new TextEncoder().encode(key);
