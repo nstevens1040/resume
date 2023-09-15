@@ -433,10 +433,6 @@
                 padding-bottom: 5px;
             }
 
-            @page {
-                size: A4;
-            }
-
             .container {
                 padding-top: 20px;
                 /* page-break-before: auto;
@@ -830,145 +826,141 @@
             }
 
             @media print {
-                /* #contact-list-alt {
-                    padding-inline-start: 0px;
-                    -webkit-column-count: 3;
-                    -moz-column-count: 3;
-                    column-count: 3;
-                    column-gap: 15px;
-                    -moz-column-gap: 15px;
-                    column-width: 180px;
-                    -moz-column-width: 180px;
+                #pixelgif {
+                    height: 0px;
                 }
-                #contact-list-alt li {
-                    display: inline-block;
-                    padding-left: 0px;
-                    height: 18.91px;
-                } */
+
                 #badgecntnr {
-                margin-top: 15px;
-                display: block;
-                margin-right: 0px;
-                margin-left: auto;
-                border: 1px solid #000;
-                color: #000;
-                font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
-                font-size: .88rem;
-                padding: 22px 0 0;
-                text-align: center;
-                -moz-border-radius: 3px;
-                -webkit-border-radius: 3px;
-                border-radius: 3px;
-                max-width: 200px;
-            }
+                    margin-top: 10px;
+                    display: block;
+                    margin-right: 0px;
+                    margin-left: auto;
+                    border: 1px solid #000;
+                    color: #000;
+                    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+                    font-size: .88rem;
+                    padding: 22px 0 0;
+                    text-align: center;
+                    -moz-border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    border-radius: 3px;
+                    max-width: 160px;
+                    max-height: 172px
+                }
 
-            #badge {
-                color: #000;
-                text-align: center;
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-            }
+                h6.skillitem {
+                    font-size: 11px;
+                }
 
-            #badge > a {
-                text-align: center;
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-                text-decoration: none;
-            }
+                #badge {
+                    color: #000;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                }
 
-            #badge > a > img {
-                text-align: center;
-                width: 105px;
-                aspect-ratio: auto 105 / 105;
-                height: 105px;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-                margin: 0 0 22px;
-            }
+                #badge > a {
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                    text-decoration: none;
+                }
 
-            #badge-name {
-                text-align: center;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-                color: #000;
-                display: block;
-                font-size: 1rem;
-                line-height: 1.1em;
-                margin: 0 8px 8px;
-                white-space: nowrap;
-            }
+                #badge > a > img {
+                    text-align: center;
+                    width: 84px;
+                    aspect-ratio: auto 84 / 84;
+                    height: 84px;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                    margin: 0 0 22px;
+                }
 
-            #badge-issuer {
-                text-align: center;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-                color: #000;
-                font-size: .81rem;
-                font-style: italic;
-                line-height: 1.1em;
-                margin: 0 8px;
-                max-width: 100%;
-                overflow: hidden;
-            }
+                #badge-name {
+                    text-align: center;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                    color: #000;
+                    display: block;
+                    font-size: 0.77rem;
+                    line-height: 0.88em;
+                    margin: 0 5px 5px;
+                    white-space: nowrap;
+                    min-width: 150px;
+                }
 
-            #provided {
-                text-align: center;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-                background: #f0f0f0;
-                border-top: 1px solid #e2e2e2;
-                color: #000;
-                font-size: .44rem;
-                line-height: 28px;
-                margin: 18px 0 0;
-                text-transform: uppercase;
-                border-radius: 0 0 3px 3px;
-            }
+                #badge-issuer {
+                    text-align: center;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                    color: #000;
+                    font-size: 0.648rem;
+                    font-style: italic;
+                    line-height: 0.88em;
+                    margin: 0 5px;
+                    max-width: 100%;
+                    overflow: hidden;
+                }
 
-            #providedby {
-                text-align: center;
-                text-transform: uppercase;
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                vertical-align: baseline;
-                color: #000;
-                text-decoration: none;
-            }
+                #provided {
+                    text-align: center;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                    background: #f0f0f0;
+                    border-top: 1px solid #e2e2e2;
+                    color: #000;
+                    font-size: 0.352rem;
+                    line-height: 22.4px;
+                    margin: 12px 0 0;
+                    text-transform: uppercase;
+                    border-radius: 0 0 3px 3px;
+                }
 
-            #credlyspan {
-                text-align: center;
-                text-transform: uppercase;
-                color: #000;
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font: inherit;
-                background-image: url(https://cdn.credly.com/assets/embed/credly-logo-gray-26f3f001281023f5109a67c9cc22c7005fa66a0619e37607a59d47c5c0efc872.svg);
-                background-size: 30px 14px;
-                background-position: left 6px;
-                background-repeat: no-repeat;
-                display: inline-block;
-                height: 28px;
-                text-indent: -99999px;
-                vertical-align: middle;
-                width: 30px;
-            }
+                #providedby {
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                    color: #000;
+                    text-decoration: none;
+                }
+
+                #credlyspan {
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #000;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    background-image: url(https://cdn.credly.com/assets/embed/credly-logo-gray-26f3f001281023f5109a67c9cc22c7005fa66a0619e37607a59d47c5c0efc872.svg);
+                    background-size: 24px 11.2px;
+                    background-position: left 6px;
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    height: 22.4px;
+                    text-indent: -99999px;
+                    vertical-align: middle;
+                    width: 24px;
+                }
+
                 .item > ul > li {
                     padding: 0px 0px 8px 0px;
                 }
@@ -1001,10 +993,6 @@
                     padding: 0px 0px 0px 0px !important;
                 }
 
-                @page {
-                    border-top: 2px solid #FFFFFF;
-                }
-
                 .page {
                     color: #000;
                     width: 100%;
@@ -1018,21 +1006,15 @@
                 .title {
                     background-color: #393e46;
                     color: #FFFFFF;
-                    /* page-break-inside: avoid;
-                    page-break-after: avoid; */
                 }
 
                 .keyline {
                     width: 45px;
-                    /* margin: 8px 0 10px; */
                     margin: 4px 0 10px;
                     border-top: 2px solid #5C78FF;
-                    /* page-break-inside: avoid;
-                    page-break-after: avoid; */
                 }
 
                 .page .resume-header, .page .resume-content {
-                    /* padding: 0 35px 0 35px; */
                     padding: 0px 0px 0px 0px;
                 }
 
@@ -1042,12 +1024,8 @@
 
                 .left-column {
                     width: 250px;
-                    /* margin-right: 35px; */
                 }
 
-                /* .left-column .container {
-                    /* page-break-inside: avoid;
-                } */
                 .fa-external-link {
                     display: none;
                 }
@@ -1062,7 +1040,6 @@
                 }
 
                 .page {
-                    /* padding: 35px; */
                     padding: 0px 0px 0px 0px;
                 }
 
@@ -1081,13 +1058,11 @@
                     color: black;
                 }
 
-                .skills-alt > section > ul > li /*,.languages-container > ul > li */
-                {
+                .skills-alt > section > ul > li {
                     display: inline;
                 }
 
-                .skills-alt > section > ul > li > h6 /*,.languages-container > ul > li > h6 */
-                {
+                .skills-alt > section > ul > li > h6 {
                     padding-right: 10px;
                     display: inline;
                 }
@@ -1096,22 +1071,7 @@
                     font-size: 10.8333333333333px !important;
                 }
 
-                /* h3 {
-                    font-size: 13.3333333333333px !important;
-                }
-
-                h4 {
-                    font-size: 11.6666666666667px !important;
-                } */
-                /* h6 {
-                    font-size: 10px !important;
-                } */
-                /* 
-                p, li {
-                    font-size: 10.8333333333333px;
-                } */
                 .item {
-                    /* margin-top: 20px; */
                     padding-top: 10px;
                     margin: 20px 0px 10px 0px;
                 }
@@ -1126,68 +1086,18 @@
                     color: black;
                     word-wrap: break-word;
                     page-break-inside: avoid;
-                    /* padding-top: 20px; */
                 }
 
-                /* #contact-list-alt {
-                    padding-inline-start: 0px;
-                    -webkit-column-count: 3;
-                    -moz-column-count: 3;
-                    column-count: 3;
-                    column-gap: 15px;
-                    -moz-column-gap: 15px;
-                    column-width: 180px;
-                    -moz-column-width: 180px;
-                }
-                #contact-list-alt li {
-                    display: inline-block;
-                    padding-left: 0px;
-                } */
-                /* h1 {
-                font-size: 33.3333333333333px;
-            }
-            h2 {
-                font-size: 13.3333333333333px;
-            }
-            h5 {
-                font-size: 9.16666666666666px;
-            }
-            a .fa-external-link {
-                font-size: 6.66666666666666px;
-            }
-            blockquote {
-                font-size: 9.16666666666666px;
-            }
-            .summary {
-                font-size: 11.6666666666667px;
-            }
-            .info-tag-container .fa {
-                font-size: 11.6666666666667px;
-            }
-            .info-tag-container .fa.fa-map-marker {
-                font-size: 13.3333333333333px;
-            }
-            .info-tag-container .fa.fa-mobile {
-                font-size: 15px;
-            }
-            .info-tag-container .fa.fa-envelope-o {
-                font-size: 10px;
-            }
-            .info-tag-container .fa.fa-desktop {
-                font-size: 9.16666666666666px;
-            }
-            .info-tag-container .fa.fa-external-link {
-                font-size: 6.66666666666666px;
-            }
-            .references-container .fa {
-                font-size: 11.6666666666667px;
-            } */
                 .startDate {
                     font-size: 12px;
                 }
 
                 .endDate {
                     font-size: 12px;
+                }
+
+                .resume-content {
+                    max-width: 850px;
                 }
             }
 
@@ -1263,6 +1173,12 @@
             #contact-list-alt {
                 width: 100%;
             }
+
+            @page {
+                margin: 0.3in 0.3in 0in 0.3in;
+                size: A4;
+                border-top: 2px solid #FFFFFF;
+            }
         </style>
         <!-- Meta Pixel Code -->
         <script>
@@ -1293,6 +1209,7 @@
         </noscript>
         <!-- End Meta Pixel Code -->
         <script type="application/ld+json">
+            
             
             
         {
@@ -1453,6 +1370,7 @@
         }
       
         
+        
         </script>
     </head>
     <body class="body-content">
@@ -1487,6 +1405,7 @@
                                     nstevens@nanick.org 
                                     
                                     
+                                    
                                     <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
                                     </svg>
@@ -1500,6 +1419,7 @@
                             <h6 class="info-text">
                                 <a href="tel:1-224-223-2299" target="_blank" title="Call me">
                                     (224) 223-2299 
+                                    
                                     
                                     
                                     <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -1517,6 +1437,7 @@
                                     nstevens@nanick.org 
                                     
                                     
+                                    
                                     <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
                                     </svg>
@@ -1530,6 +1451,7 @@
                             <h6 class="info-text">
                                 <a rel="noreferrer" href="https://www.linkedin.com/in/nicholasstevens312" target="_blank" title="My LinkedIn profile">
                                     in/nicholasstevens312 
+                                    
                                     
                                     
                                     <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -1547,6 +1469,7 @@
                                     nstevens1040 
                                     
                                     
+                                    
                                     <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
                                     </svg>
@@ -1562,6 +1485,7 @@
                                     Chicago, IL
                                     
                                     
+                                    
                                     <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                         <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
                                     </svg>
@@ -1575,6 +1499,7 @@
                             <h6 class="info-text">
                                 <a rel="noreferrer" href="https://resume.nanick.org/" target="_blank" title="My resume webpage">
                                     resume.nanick.org/ 
+                                    
                                     
                                     
                                     <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -1601,8 +1526,7 @@
                                             <path fill="currentColor" d="M448 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V128C512 92.65 483.3 64 448 64zM64 112h384c8.822 0 16 7.178 16 16v22.16l-166.8 138.1c-23.19 19.28-59.34 19.27-82.47 .0156L48 150.2V128C48 119.2 55.18 112 64 112zM448 400H64c-8.822 0-16-7.178-16-16V212.7l136.1 113.4C204.3 342.8 229.8 352 256 352s51.75-9.188 71.97-25.98L464 212.7V384C464 392.8 456.8 400 448 400z"></path>
                                         </svg>
                                         <span class="info-text" style="font-size: 14px;">
-                                            nstevens@nanick.org 
-                                            
+                                            nstevens@nanick.org
                                             
                                             <!-- <img height=8 width=8 src="resume.nanick.org_files/image003.png">  -->
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -1620,7 +1544,6 @@
                                         <span class="info-text" style="font-size: 14px;">
                                             nstevens@nanick.org
                                             
-                                            
                                             <!-- <img height=8 width=8 src="resume.nanick.org_files/image003.png">  -->
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                 <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -1636,7 +1559,6 @@
                                         </svg>
                                         <span class="info-text" style="font-size: 14px;">
                                             Chicago, IL
-                                            
                                             
                                             <!-- <img height=8 width=8 src="resume.nanick.org_files/image003.png"> -->
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -1656,7 +1578,6 @@
                                         <span class="info-text" style="font-size: 14px;">
                                             (224) 223-2299
                                             
-                                            
                                             <!-- <img height=8 width=8 src="resume.nanick.org_files/image003.png">  -->
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                 <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -1673,7 +1594,6 @@
                                         <span class="info-text" style="font-size: 14px;">
                                             in/nicholasstevens312
                                             
-                                            
                                             <!-- <img height=8 width=8 src="resume.nanick.org_files/image003.png">                 -->
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                 <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -1689,7 +1609,6 @@
                                         </svg>
                                         <span class="info-text" style="font-size: 14px;">
                                             resume.nanick.org/
-                                            
                                             
                                             <!-- <img height=8 width=8 src="resume.nanick.org_files/image003.png">  -->
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -1709,7 +1628,6 @@
                                         </svg>
                                         <span class="info-text" style="font-size: 14px;">
                                             nstevens1040
-                                            
                                             
                                             <!-- <img height=8 width=8 src="resume.nanick.org_files/image003.png">  -->
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -2017,7 +1935,8 @@
                                 <div class="section-header clearfix">
                                     <h3 class="bold pull-left">
                                         <a href="#freelance" id="freelance">
-                                            Freelance & Volunteer
+                                            Freelance &Volunteer
+                                            
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                 <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
                                             </svg>
@@ -2031,19 +1950,18 @@
                                 <h4>Technical Support / Software Engineering / Sales</h4>
                                 <p class="summary">These are my various self-employed and pro bono engagements.</p>
                                 <ul>
-                                    <li>Built a small clientele by performing low-cost full-service laptop repairs with a fast turnaround</li>
-                                    <li>Refurbished, upgraded, and sold laptop and desktop computers</li>
-                                    <li>Provided informal remote support, limited to verbal instruction, for professors navigating Zoom classrooms</li>
-                                    <li>Produced solutions for students seeking assistance with their dissertation (Facebook ads, Python scripting, ETL, documentation, etc.)</li>
-                                    <li>Advised clinicians on the technical pieces of deploying a webpage for a private practice</li>
+                                    <li>Built a client base by offering low-cost full-service laptop repairs with a quick turnaround.</li>
+                                    <li>Refurbished, upgraded, and sold laptops and desktop computers.</li>
+                                    <li>Provided remote support to professors navigating Zoom classrooms for the first time.</li>
+                                    <li>Wrote Python scripts and performed ETL to aid students with their dissertations.</li>
+                                    <li>Advised clinicians on deploying a webpage for a private practice.</li>
                                 </ul>
                             </section>
                             <section class="item" style="page-break-inside: avoid; page-break-before: avoid;">
                                 <div class="section-header clearfix">
                                     <h3 class="bold pull-left">
                                         <a rel="noreferrer" href="https://compasslexecon.com" target="_blank">
-                                            Compass Lexecon 
-                                            
+                                            Compass Lexecon
                                             
                                             <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                                 <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -2058,15 +1976,14 @@
                                 <h4>Technical Support Engineer I</h4>
                                 <p class="summary">Compass Lexecon is a global economic consulting company with headquarters in Chicago, Illinois.</p>
                                 <ul>
-                                    <li>Tested and monitored videoconferencing between practitioners and client law firms to ensure that important video calls went uninterrupted</li>
-                                    <li>Generated daily reports relating to user sessions on Windows servers which enabled me to prevent common issues with Citrix Application Delivery</li>
-                                    <li>Increased stakeholder confidence by ensuring stellar service delivery and documenting incident resolutions in ServiceNow per ITIL</li>
-                                    <li>Resolved unique interoperability issues between statistical analysis software (STATA, R, MATLAB, Python, etc.) and Microsoft SQL Server</li>
-                                    <li>Produced on-demand reporting for database backup restore operations to allow practitioners to begin analysis as soon as possible</li>
-                                    <li>Wrote knowledge base articles that worked to reduce incidents by providing reliable resources during six major deployments, migrations, and upgrades</li>
-                                    <li>Improved and hastened user account provisioning by automating the process of determining which AD security groups a new user must be added to</li>
-                                    <li>Gained approval from IT governance to write a PowerShell script for use in production as SOP to configure new laptops and append a provisioning log</li>
-                                    <li>Managed the secure ingestion of highly confidential and/or federally protected data sent from client law firms</li>
+                                    <li>Ensured that videoconferencing between practitioners and client law firms went uninterrupted.</li>
+                                    <li>Generated daily reports on user sessions to prevent issues with Citrix Application Delivery.</li>
+                                    <li>Documented incident resolutions in ServiceNow per ITIL, boosting stakeholder confidence.</li>
+                                    <li>Resolved interoperability issues between statistical analysis software and MS SQL Server.</li>
+                                    <li>Provided on-demand reporting for database backup restore operations.</li>
+                                    <li>Created knowledge base articles to reduce incidents during major deployments and migrations.</li>
+                                    <li>Gained IT governance approval to write a production-ready PowerShell script for new laptops.</li>
+                                    <li>Managed secure data ingestion from client law firms.</li>
                                 </ul>
                             </section>
                         </div>
@@ -2075,8 +1992,7 @@
                             <div class="section-header clearfix">
                                 <h3 class="bold pull-left">
                                     <a rel="noreferrer" href="https://www.burwood.com/" target="_blank">
-                                        Burwood Group 
-                                        
+                                        Burwood Group
                                         
                                         <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -2091,20 +2007,19 @@
                             <h4>On-site Helpdesk Staff Augmentation for Starwood Retail Partners</h4>
                             <p class="summary">Burwood Group is a consulting firm that bridges business strategy and technology solutions.</p>
                             <ul>
-                                <li>Prevailed over incident response and full resolution SLA targets by delivering swift and competent service to 100 local users and 200 remote users</li>
-                                <li>Improved equipment provisioning process by automating required changes to user profiles with a Batch script</li>
-                                <li>Reduced hardware overhead by providing break/fix solutions for laptops, desktops and associated peripherals</li>
-                                <li>Exceeded progress targets for their endpoint migration initiative from Microsoft Office 2010 to Microsoft Office 365</li>
-                                <li>Single point of contact for technical support to both local and remote staff with very few escalation points</li>
+                                <li>Outpaced incident response and resolution SLA targets for local and remote users.</li>
+                                <li>Streamlined equipment provisioning by automating changes to user profiles.</li>
+                                <li>Reduced hardware overhead through laptop and desktop break/fix solutions.</li>
+                                <li>Surpassed progress targets for the endpoint migration from Office 2010 to Office 365.</li>
+                                <li>Served as the primary technical support point of contact with minimal escalations.</li>
                             </ul>
                         </section>
-                        <div style="page-break-inside: auto;"></div>
+                        <!-- <div style="page-break-inside: auto;"></div> -->
                         <section class="item" style="page-break-inside: avoid;">
                             <div class="section-header clearfix">
                                 <h3 class="bold pull-left">
                                     <a rel="noreferrer" href="https://www.neweratech.com/us/" target="_blank">
-                                        Project Leadership Associates 
-                                        
+                                        Project Leadership Associates
                                         
                                         <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -2119,20 +2034,18 @@
                             <h4>Remote Support for Coca-Cola Multitenant Migration</h4>
                             <p class="summary">Project Leadership Associates (now New Era Technology) works with customers as a trusted technology adviser.</p>
                             <ul>
-                                <li>Proactively scheduled Bomgar remote support sessions with Coca-Cola staff, post cutover, to reconnect their Outlook profile to Exchange Online</li>
-                                <li>Outperformed SLA while following best practice incident management in ServiceNow</li>
-                                <li>Worked closely with escalation teams to determine whether resolutions can be resolved client-side or if they require changes in Exchange Online</li>
-                                <li>Decreased time spent troubleshooting by contributing to a knowledge base upon discovery of working resolutions</li>
-                                <li>Minimized the need to escalate incidents by successfully resolving them at the endpoint</li>
+                                <li>Provided Bomgar remote support sessions to reconnect Outlook profiles to Exchange Online.</li>
+                                <li>Outperformed SLAs and contributed to knowledge base for efficient incident management.</li>
+                                <li>Only escalated incidents that required changes to Exchange Online.</li>
+                                <li>Successfully resolved incidents at the endpoint, reducing full resolution time.</li>
                             </ul>
                         </section>
-                        <div style="page-break-inside: auto;"></div>
+                        <!-- <div style="page-break-inside: auto;"></div> -->
                         <section class="item" style="page-break-inside: avoid;">
                             <div class="section-header clearfix">
                                 <h3 class="bold pull-left">
                                     <a rel="noreferrer" href="https://www.hhglobal.com/" target="_blank">
-                                        InnerWorkings 
-                                        
+                                        InnerWorkings
                                         
                                         <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -2147,20 +2060,19 @@
                             <h4>Helpdesk Support Technician</h4>
                             <p class="summary">InnerWorkings (acquired by HH Global) is a global professional services firm focused on marketing execution.</p>
                             <ul>
-                                <li>Worked alongside four other helpdesk technicians to support over 2000 users worldwide in 80 countries</li>
-                                <li>Continuously improved full resolution time by contributing to a knowledge base and by working with the Systems team to fix widespread issues</li>
-                                <li>When appropriate, performed repairs to reconcile computer hardware which saved the firm over $100K in 9 months</li>
-                                <li>Hardened endpoints by collaborating with Systems to deploy Snow Asset Management to manage security compliance</li>
-                                <li>Ensured a seamless migration to Globalscape MFT by moving folders, setting ACLs, and educating non-technical staff on it's use</li>
+                                <li>Supported over 2000 users worldwide in 80 countries alongside four helpdesk technicians.</li>
+                                <li>Improved resolution times by maintaining a knowledge base and collaborating with Systems.</li>
+                                <li>Saved the firm $100K in hardware expenditure by performing computer hardware repairs.</li>
+                                <li>Assisted in the firm's pursuit of ISO 27001 by deploying Snow Software Asset Management.</li>
+                                <li>Ensured a seamless migration from FTP to Globalscape MFT.</li>
                             </ul>
                         </section>
-                        <div style="page-break-inside: auto;"></div>
+                        <!-- <div style="page-break-inside: auto;"></div> -->
                         <section class="item" style="page-break-inside: avoid;">
                             <div class="section-header clearfix">
                                 <h3 class="bold pull-left">
                                     <a rel="noreferrer" href="https://www.tigerdirect.com/" target="_blank">
-                                        TigerDirect 
-                                        
+                                        TigerDirect
                                         
                                         <svg height="8px" width="8.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-up-right-from-square" class="svg-inline--fa fa-arrow-up-right-from-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path fill="currentColor" d="M384 320c-17.67 0-32 14.33-32 32v96H64V160h96c17.67 0 32-14.32 32-32s-14.33-32-32-32L64 96c-35.35 0-64 28.65-64 64V448c0 35.34 28.65 64 64 64h288c35.35 0 64-28.66 64-64v-96C416 334.3 401.7 320 384 320zM502.6 9.367C496.8 3.578 488.8 0 480 0h-160c-17.67 0-31.1 14.32-31.1 31.1c0 17.67 14.32 31.1 31.99 31.1h82.75L178.7 290.7c-12.5 12.5-12.5 32.76 0 45.26C191.2 348.5 211.5 348.5 224 336l224-226.8V192c0 17.67 14.33 31.1 31.1 31.1S512 209.7 512 192V31.1C512 23.16 508.4 15.16 502.6 9.367z"></path>
@@ -2175,16 +2087,16 @@
                             <h4>Lead Technician</h4>
                             <p class="summary">TigerDirect is a California-based retailer dealing in electronics, computers, computer components, computer repair, and custom-built PCs.</p>
                             <ul>
-                                <li>Took on nearly any computer repair challenge as a way to increase revenue, to increase customer confidence, and to gain experience</li>
-                                <li>Drove profitability by building custom made-to-order desktop PCs as a core function of my role</li>
-                                <li>Took ownership of customer outcomes to support the reputation of the technical services department</li>
-                                <li>Provided oversight and mentorship for four technicians working under me</li>
-                                <li>Directly influenced a nearly two-fold increase in revenue from technical services</li>
+                                <li>Took on nearly any computer repair challenge to increase revenue and customer confidence.</li>
+                                <li>Drove profitability by building custom made-to-order desktop PCs.</li>
+                                <li>Took ownership of customer outcomes to bolster the technical services reputation.</li>
+                                <li>Provided oversight and mentorship to four technicians.</li>
+                                <li>Directly influenced a nearly two-fold increase in revenue from technical services.</li>
                             </ul>
                         </section>
                     </div>
-                    <div style="page-break-inside: auto;"></div>
-                    <div class="container education-container" style="page-break-inside: avoid;">
+                    <div style="page-break-inside: auto; page-break-after: avoid;"></div>
+                    <div class="container education-container" style="page-break-inside: avoid; page-break-after: avoid;">
                         <div class="title">
                             <svg height="16px" width="16.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-graduate" class="svg-inline--fa fa-user-graduate" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path fill="currentColor" d="M45.63 79.75L52 81.25v58.5C45 143.9 40 151.3 40 160c0 8.375 4.625 15.38 11.12 19.75L35.5 242C33.75 248.9 37.63 256 43.13 256h41.75c5.5 0 9.375-7.125 7.625-13.1L76.88 179.8C83.38 175.4 88 168.4 88 160c0-8.75-5-16.12-12-20.25V87.13L128 99.63l.001 60.37c0 70.75 57.25 128 128 128s127.1-57.25 127.1-128L384 99.62l82.25-19.87c18.25-4.375 18.25-27 0-31.5l-190.4-46c-13-3-26.62-3-39.63 0l-190.6 46C27.5 52.63 27.5 75.38 45.63 79.75zM359.2 312.8l-103.2 103.2l-103.2-103.2c-69.93 22.3-120.8 87.2-120.8 164.5C32 496.5 47.53 512 66.67 512h378.7C464.5 512 480 496.5 480 477.3C480 400 429.1 335.1 359.2 312.8z"></path>
@@ -2237,7 +2149,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div>
+                            <div style="height: 0px;">
                                 <div data-iframe-width="200" data-iframe-height="0" data-share-badge-id="c39e906f-0c99-4de5-8a5c-16847416fbd4" data-share-badge-host="https://www.credly.com"></div>
                                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                             </div>
@@ -2249,10 +2161,10 @@
                             </div> -->
                         </section>
                     </div>
-                    <div style="page-break-inside: auto;"></div>
-                    <div class="container skills-alt">
+                    <!-- <div style="page-break-inside: auto;"></div> -->
+                    <div class="container skills-alt" style="page-break-inside: avoid; page-break-after: avoid;">
                         <!--style="page-break-inside: avoid;"-->
-                        <div style="page-break-inside: avoid;">
+                        <div>
                             <div class="title">
                                 <svg height="16px" width="20.3px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="code" class="svg-inline--fa fa-code" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
                                     <path fill="currentColor" d="M416 31.94C416 21.75 408.1 0 384.1 0c-13.98 0-26.87 9.072-30.89 23.18l-128 448c-.8404 2.935-1.241 5.892-1.241 8.801C223.1 490.3 232 512 256 512c13.92 0 26.73-9.157 30.75-23.22l128-448C415.6 37.81 416 34.85 416 31.94zM176 143.1c0-18.28-14.95-32-32-32c-8.188 0-16.38 3.125-22.62 9.376l-112 112C3.125 239.6 0 247.8 0 255.1S3.125 272.4 9.375 278.6l112 112C127.6 396.9 135.8 399.1 144 399.1c17.05 0 32-13.73 32-32c0-8.188-3.125-16.38-9.375-22.63L77.25 255.1l89.38-89.38C172.9 160.3 176 152.2 176 143.1zM640 255.1c0-8.188-3.125-16.38-9.375-22.63l-112-112C512.4 115.1 504.2 111.1 496 111.1c-17.05 0-32 13.73-32 32c0 8.188 3.125 16.38 9.375 22.63l89.38 89.38l-89.38 89.38C467.1 351.6 464 359.8 464 367.1c0 18.28 14.95 32 32 32c8.188 0 16.38-3.125 22.62-9.376l112-112C636.9 272.4 640 264.2 640 255.1z"></path>
@@ -2431,6 +2343,6 @@
                 </div>
             </div>
         </main>
-        <img alt="pixelgif" src="https://beserver.nanick.org/pixel.gif"/>
+        <img alt="pixelgif" id="pixelgif" src="https://beserver.nanick.org/pixel.gif"/>
     </body>
 </html>
