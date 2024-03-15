@@ -1,2 +1,1 @@
-# Nicholas Stevens CV 2023  
-
+# Nicholas Stevens CV
